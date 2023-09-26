@@ -73,3 +73,33 @@ html, body{
     background-color: #282e34;
     color: #ddd;
 }
+
+@media screen and (max-width: 480px) {
+    
+    .ptext{
+        position: absolute;
+        top: 50%;
+        width: 100%;
+        text-align: center;
+        color: black;
+        font-size: 16px;
+        letter-spacing: 4px;
+        text-transform: uppercase;
+    }
+
+  }
+
+  @media screen and (max-width: 236px) {
+    
+    .ptext{
+        position: absolute;
+        top: 50%;
+        width: 100%;
+        text-align: center;
+        color: black;
+        font-size: 12px;
+        letter-spacing: 1px;
+        text-transform: uppercase;
+    }
+
+  }
